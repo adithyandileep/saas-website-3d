@@ -2,7 +2,7 @@ import React from 'react'
 
 import CustomButton from './CustomButton';
 
-const AiPicker = ({ prompt, setPrompt, generatingImg, handleSubmit }) => {
+const AIPicker = ({ prompt, setPrompt, generatingImg, handleSubmit }) => {
   return (
     <div className="aipicker-container">
       <textarea 
@@ -41,4 +41,4 @@ const AiPicker = ({ prompt, setPrompt, generatingImg, handleSubmit }) => {
   )
 }
 
-export default AiPicker
+export default AIPicker
